@@ -1,11 +1,7 @@
 import React from "react";
 
-const AreasServed = () => {
-  return (
-    <div>
-      <h1>AreasServed</h1>
-    </div>
-  );
-};
+function AreasServed() {
+  return <div></div>;
+}
 
 export default AreasServed;
