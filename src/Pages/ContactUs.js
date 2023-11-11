@@ -1,8 +1,25 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { HiLocationMarker } from "react-icons/hi";
 import { AiFillPhone } from "react-icons/ai";
 import LiveLocationMap from "../MapLocation.js/Map";
+import { AiFillCaretDown } from "react-icons/ai";
 const ContactUs = () => {
+  const navigate = useNavigate();
+
+  const handleNavigate = function () {
+    return navigate("/home");
+  };
+  const handleContactUs = function () {
+    return navigate("/Contactus");
+  };
+  const handleAbout = function () {
+    return navigate("/about");
+  };
+
+  const handleClick = function () {
+    navigate("/contactus");
+  };
   return (
     <div className="contact-us">
       <div className="contact-img">
@@ -69,6 +86,49 @@ const ContactUs = () => {
             <input type="text" className="form-guess" />
           </div>
           <button className="submit">Submit</button>
+        </div>
+      </div>
+      <div className="location-detailes">
+        <div className="links">
+          <h2 className="link-title">
+            Important-Links <AiFillCaretDown />
+          </h2>
+
+          <h3 className="link-1" onClick={handleNavigate}>
+            Home
+          </h3>
+          <h3 className="link-2" onClick={handleNavigate}>
+            blog
+          </h3>
+          <h3 className="link-3" onClick={handleAbout}>
+            About
+          </h3>
+          <h3 className="link-4" onClick={handleContactUs}>
+            ContactUs
+          </h3>
+          <h3 className="link-2" onClick={handleNavigate}>
+            clientReviews
+          </h3>
+        </div>
+        <div className="contact-uss">
+          <h1 className="contact-title1">
+            Call Us
+            <AiFillCaretDown />
+          </h1>
+          <p className="phone">
+            <AiFillPhone />
+            (402) 625-6325
+          </p>
+        </div>
+        <div className="Visit-us">
+          <h1 className="contact-title1">
+            Visit-us
+            <AiFillCaretDown />
+          </h1>
+          <p className="para">
+            Sopinski Law Office 33 W. 4th St.,Suite 1 Fremont NE 68025 Get
+            Directions (402) 625-6325
+          </p>
         </div>
       </div>
     </div>
