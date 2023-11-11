@@ -83,7 +83,9 @@ ul {
 }
 @media (max-width: 900px) {
   .menu {
-    display: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%vw;
   }
 }
 .dots {
