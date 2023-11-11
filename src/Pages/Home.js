@@ -305,16 +305,16 @@ const Home = () => {
           <h3 className="link-1" onClick={handleNavigate}>
             Home
           </h3>
-          <h3 className="link-2" onClick={handleNavigate}>
+          <h3 className="link-1" onClick={handleNavigate}>
             blog
           </h3>
-          <h3 className="link-3" onClick={handleAbout}>
+          <h3 className="link-1" onClick={handleAbout}>
             About
           </h3>
-          <h3 className="link-4" onClick={handleContactUs}>
+          <h3 className="link-1" onClick={handleContactUs}>
             ContactUs
           </h3>
-          <h3 className="link-2" onClick={handleNavigate}>
+          <h3 className="link-1" onClick={handleNavigate}>
             clientReviews
           </h3>
         </div>
