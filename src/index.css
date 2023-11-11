@@ -84,7 +84,7 @@ ul {
 @media (max-width: 900px) {
   .menu {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%vw;
   }
 }
