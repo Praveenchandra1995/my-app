@@ -17,8 +17,8 @@ const ContactUs = () => {
     return navigate("/about");
   };
 
-  const handleClick = function () {
-    navigate("/contactus");
+  const handleLocation = function () {
+    navigate("/Contactus");
   };
   return (
     <div className="contact-us">
@@ -106,7 +106,7 @@ const ContactUs = () => {
           <h3 className="link-4" onClick={handleContactUs}>
             ContactUs
           </h3>
-          <h3 className="link-2" onClick={handleNavigate}>
+          <h3 className="link-2" onClick={handleLocation}>
             clientReviews
           </h3>
         </div>
