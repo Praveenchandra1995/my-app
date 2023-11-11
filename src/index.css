@@ -433,3 +433,297 @@ ul {
     margin-top: 10px;
   }
 }
+@media (max-width: 900px) {
+  .contact-title {
+    position: absolute;
+    bottom: 40px;
+  }
+}
+@media (min-width: 901px) {
+  .contact-title {
+    position: absolute;
+    bottom: 80px;
+  }
+}
+.icon-left {
+  width: 50px;
+  height: 30px;
+  margin-left: 50%;
+}
+.icon-right {
+  width: 50px;
+  height: 30px;
+}
+@media (max-width: 900px) {
+  .case-title {
+    font-size: 45px;
+    font-family: poppins;
+    font-weight: 800;
+    margin-right: 50%;
+    text-align: start;
+  }
+}
+@media (min-width: 901px) {
+  .case-title {
+    width: 100%vw;
+    font-size: 45px;
+    font-family: poppins;
+    font-weight: 800;
+    margin-right: 70%;
+    text-align: start;
+  }
+}
+
+.case-title-part {
+  display: flex;
+  justify-content: flex-end;
+}
+.case-icon {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -90px;
+}
+.case-icon:hover {
+  color: orangered;
+}
+.case-result-title {
+  font-size: 20px;
+  font-family: poppins;
+  margin-top: 8%;
+  text-align: start;
+}
+.case-result-result {
+  font-size: 16px;
+  font-family: poppins;
+  margin-top: -5%;
+  text-align: start;
+  margin-left: 0.5%;
+  color: gray;
+}
+.cases-display {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 6%;
+}
+.cases-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+
+@media (max-width: 900px) {
+  .Law-firm-intro {
+    background-image: url("/public/Images/img12.png");
+    width: 100%;
+    height: 950px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 901px) {
+  .Law-firm-intro {
+    background-image: url("/public/Images/img12.png");
+    width: 100%;
+    height: 1450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 900px) {
+  .firm-ceo {
+    width: 100%vw;
+    height: 300px;
+    color: #ffffff;
+    background-color: orangered;
+    position: absolute;
+    margin-top: 85%;
+    margin-right: 6%;
+  }
+}
+@media (min-width: 901px) {
+  .firm-ceo {
+    width: 100%vw;
+    height: 300px;
+    color: #ffffff;
+    background-color: orangered;
+    position: absolute;
+    margin-top: 80%;
+    margin-right: 3.5%;
+  }
+}
+.Law-firm-intro {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-size: 50px;
+  margin-right: 50%;
+  text-align: start;
+  margin-top: 0%;
+}
+.dots-1 {
+  margin-bottom: 0%;
+  text-align: start;
+  margin-top: 3%;
+}
+.icon-head {
+  width: 50px;
+  border: 3 px solid gray;
+  height: 50px;
+  background-color: #9bbec8;
+  border-radius: 50%;
+  color: green;
+}
+.call-info {
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+.call-data {
+  color: black;
+  font-size: 16px;
+  font-family: poppins;
+  margin: 0%;
+}
+.heading-part {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600px;
+  text-align: start;
+}
+.heading-style {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.dots-2 {
+  text-align: center;
+  margin-top: 5%;
+}
+.penalty-header {
+  font-size: 65px;
+  font-family: poppins;
+  font-weight: 600;
+}
+.penalty-para {
+  font-size: 16px;
+  color: gray;
+  font-family: poppins;
+  text-align: start;
+  margin-top: -4%;
+  line-height: 25px;
+  background-color: #ddf2fd;
+}
+@media (min-width: 901px) {
+  .penalty-para {
+    font-size: 16px;
+    color: gray;
+    font-family: poppins;
+    text-align: start;
+    margin-top: -2%;
+    line-height: 25px;
+    background-color: #ddf2fd;
+  }
+}
+.experience-header {
+  text-align: start;
+  font-size: 35px;
+  font-family: poppins;
+  color: black;
+}
+
+.experience-para {
+  font-family: 16px;
+  font-weight: 400;
+  font-family: poppins;
+  text-align: start;
+  color: gray;
+  margin-top: -2%;
+  line-height: 25px;
+}
+.contact-experienced {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.consult-title {
+  color: black;
+  font-family: poppins;
+  line-height: 25px;
+  text-align: start;
+}
+.consult-para {
+  color: gray;
+  text-align: start;
+  font-size: 14px;
+  line-height: 25px;
+}
+@media (min-width: 901) {
+  .consult-para {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .experience-para {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .penalty-para {
+    margin-top: 5px;
+    margin-bottom: 4px;
+  }
+}
+.contact-paraa {
+  font-size: 35px;
+  font-family: poppins;
+  text-align: start;
+  margin-top: 0%;
+}
+.phone:hover {
+  color: orangered;
+}
+.link-title {
+  font-size: 20px;
+  font-family: poppins;
+  font-weight: 400px;
+  text-align: start;
+}
+.links {
+  display: flex;
+  width: 250px;
+  height: 180px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: start;
+  font-size: 15px;
+}
+.links:hover {
+  color: orangered;
+}
+.Visit-us {
+  font-family: poppins;
+  width: 250px;
+  height: 180px;
+}
+.para {
+  font-size: 14px;
+  color: black;
+  font-family: poppins;
+  margin-top: -10px;
+  text-align: start;
+}
+.para:hover {
+  color: orangered;
+}
+.location-detailes {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+  text-align: start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
