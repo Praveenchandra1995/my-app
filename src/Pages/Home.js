@@ -333,6 +333,12 @@ const Home = () => {
           </p>
         </div>
       </div>
+      <footer className="footer">
+        <h3>
+          © Sopinski Law Office 2023 | All Rights Reserved | Disclaimer Privacy
+          Policy
+        </h3>
+      </footer>
     </div>
   );
 };
